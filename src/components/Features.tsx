@@ -112,8 +112,8 @@ export function Features() {
         pariatur nobis nesciunt, nihil sed laudantium?
       </p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
-        {PropertiesList.map((property) => (
-          <PropertyCart {...property} />
+        {PropertiesList.map((property, index) => (
+          <PropertyCart key={index} {...property} />
         ))}
       </div>
     </div>
