@@ -85,8 +85,16 @@
 
 .Listing{
   background-image:
-  linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.1)), 
+  linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
   url("../../public/imgs/image-17.jpg");
+  background-size: cover;
+  background-position: 30%;
+
+}
+.Services{
+  background-image:
+  linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.1)), 
+  url("../../public/imgs/image-16.jpg");
   background-size: cover;
   background-position: 30%;
 
@@ -103,5 +111,50 @@
   background-color: aliceblue;
   border-radius: 25px;
   width: 4px;
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #ffffff;
+  	border-bottom: 2px solid #ffffff;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
 }
 
