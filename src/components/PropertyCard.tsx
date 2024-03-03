@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PropertiesList } from "./Features";
+import { PropertiesList } from "./data/Features";
 import Image from "next/image";
 import { Bath, Bed, Square, StarIcon } from "lucide-react";
 
@@ -23,7 +23,7 @@ export function PropertyCart({
           alt={name}
           width={400}
           height={400}
-          className="w-full transition-transform group-hover:scale-105"
+          className="w-full transition-transform hover:scale-105"
         />
       </div>
       <div className="p-6 space-y-6">

@@ -82,3 +82,26 @@
   background-position: 30%;
 
 }
+
+.Listing{
+  background-image:
+  linear-gradient(to top, rgba(0,0,0,0.1),rgba(0,0,0,0.1)), 
+  url("../../public/imgs/image-17.jpg");
+  background-size: cover;
+  background-position: 30%;
+
+}
+
+::-webkit-scrollbar-corner{
+  background-color: white;
+}
+::-webkit-scrollbar{
+  background-color: black;
+  width: 4px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 4px;
+}
+

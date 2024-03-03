@@ -1,13 +1,15 @@
-import { Features } from "@/components/Features";
-import { Hero } from "@/components/Hero";
-import { OurStory } from "@/components/OurStory";
+import { Hero } from "@/app/Home/Hero";
+import { OurStory } from "@/app/Home/OurStory";
+import { HomeItems } from "./Home/HomeItems";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <OurStory/>
-      <Features/>
+      <OurStory />
+      <HomeItems />
+      <Footer />
     </>
   );
 }
