@@ -15,7 +15,7 @@ export function Menu() {
         <>
           <div
             className=" flex sm:hidden gap-8 max-w-xl items-center justify-center
-             bg-white/80  transition-all border-2
+             bg-transparent  transition-all 
         mt-2 rounded-xl   z-50 font-semibold w-full -translate-x-64
         translate-y-10 fixed
         "
@@ -27,29 +27,29 @@ export function Menu() {
               onClick={() => setMobileNavOpen(false)}
             >
               <Link href={"/"}>
-                <Button className="w-72 text-end">
-                  <p className="ml-auto">Home</p>
+                <Button className="w-72 text-end bg-white border-2 border-black">
+                  <p className="ml-auto text-black font-semibold text-xl ">Home</p>
                 </Button>
               </Link>
 
               <Link href={"/Listings"}>
-                <Button className="w-72">
-                  <p className="ml-auto" >Listings</p>
+                <Button className="w-72 border-2 border-black bg-slate-50 ">
+                  <p className="ml-auto text-black font-semibold text-xl " >Listings</p>
                 </Button>
               </Link>
               <Link href={"/Services"}>
-                <Button className="w-72">
-                  <p className="ml-auto" >Services</p>
+                <Button className="w-72 border-2 border-black bg-slate-50 ">
+                  <p className="ml-auto text-black font-semibold text-xl " >Services</p>
                 </Button>
               </Link>
               <Link href={"/Aboutus"}>
-                <Button className="w-72">
-                  <p className="ml-auto" >About us</p>
+                <Button className="w-72 border-2 border-black bg-slate-50 ">
+                  <p className="ml-auto text-black font-semibold text-xl " >About us</p>
                 </Button>
               </Link>
               <Link href={"/Contact"}>
-                <Button className="w-72">
-                  <p className="ml-auto" >Contact</p>
+                <Button className="w-72 border-2 border-black bg-slate-50 ">
+                  <p className="ml-auto text-black font-semibold text-xl " >Contact</p>
                 </Button>
               </Link>
             </div>
@@ -58,7 +58,7 @@ export function Menu() {
       )}
       <button
         className=" flex md:hidden h-11 items-center z-50 
-        justify-center bg-slate-900 fixed  rounded-xl "
+        justify-center bg-white fixed  w-16  "
         onClick={() => setMobileNavOpen((prev) => !prev)}
       >
         <Hamburger toggled={isOpen} toggle={setOpen} />

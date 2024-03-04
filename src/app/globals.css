@@ -99,6 +99,22 @@
   background-position: 30%;
 
 }
+.About{
+  background-image:
+  linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+  url("../../public/imgs/image-13.jpg");
+  background-size: cover;
+  background-position: 30%;
+
+}
+.Contact{
+  background-image:
+  linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+  url("../../public/imgs/image-4.jpg");
+  background-size: cover;
+  background-position: 30%;
+
+}
 
 ::-webkit-scrollbar-corner{
   background-color: white;

@@ -11,11 +11,11 @@ export function OurStory() {
       <div>
         <div className="relative h-fit w-fit">
           <Image
-            src={"/imgs/home.jpg"}
+            src={"/imgs/image-3.jpg"}
             alt="home-pic"
             width={400}
             height={400}
-            className="object-cover"
+            className="object-cover rounded-xl"
           />
           <Image
             src={"/imgs/image-2.jpg"}

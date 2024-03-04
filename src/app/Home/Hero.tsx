@@ -3,7 +3,7 @@ import { SearchForm } from "@/components/SearchForm"
 export function Hero() {
   return (
     <div className="min-h-screen hero flex justify-center items-center bg-fixed">
-      <div className="max-w-4xl flex flex-col gap-6 items-center pb-10">
+      <div className="max-w-4xl flex flex-col gap-6 items-center pb-10 mt-16 md:mt-0">
         <div className="space-y-4">
           <h1
             className="text-3xl 

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 import { Menu } from "./menu";
+import { ShadeMenu } from "./ShadeMenu";
 
 
 const navList = [
@@ -31,9 +32,12 @@ const navList = [
 export function Navigation() {
   return (
     <>
-      <Menu />
+       <div className="absolute z-40">
+       <ShadeMenu/>
+       </div>
+      
 
-      <nav className="fixed w-screen px-4 top-2 z-50 hidden sm:block">
+      <nav className="fixed w-screen px-4 top-2 z-30 hidden sm:block">
         <div className="py-3 container flex items-center justify-around bg-background rounded-md z-50">
           <div className="absolute left-0 ml-5"></div>
           <p className="font-semibold italic text-2xl ">HH</p>
