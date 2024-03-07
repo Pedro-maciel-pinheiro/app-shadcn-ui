@@ -19,7 +19,7 @@ export default function Services() {
     <>
       <div
         className="min-h-screen flex flex-col gap-8 justify-center items-center Services
-       bg-fixed bg-no-repeat bg-cover bg-top "
+        md:bg-fixed bg-no-repeat bg-cover bg-top "
       >
         <h1 className="font-black text-6xl text-white mt-16 md:mt-0">Services</h1>
         <div>

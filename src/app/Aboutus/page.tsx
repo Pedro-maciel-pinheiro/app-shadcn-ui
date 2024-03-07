@@ -4,7 +4,7 @@ export default function Aboutus() {
   return (
     <div
       className="min-h-screen flex justify-center items-center About
-bg-fixed bg-no-repeat bg-cover bg-top "
+      md:bg-fixedbg-no-repeat bg-cover bg-top "
     >
       <div className="text-white  text-center max-w-3xl text-xl 
       mt-28 md:mt-6 mb-8">

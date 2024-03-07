@@ -73,10 +73,10 @@ export function PopUp() {
               target="blank"
               className="mx-auto"
             >
-              <Button className="w-96 ">Full Screen</Button>
+              <Button className="w-72 ">Full Screen</Button>
             </Link>
             <DrawerClose>
-              <Button className="w-96 bg-slate-300" variant="outline">
+              <Button className="w-72 bg-slate-300" variant="outline">
                 Close
               </Button>
             </DrawerClose>
